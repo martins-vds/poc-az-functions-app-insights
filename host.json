@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request;Exception"
+      },
+      "enableLiveMetrics": true,
+      "enableDependencyTracking": true,
+      "enablePerformanceCountersCollection": true
+    },
+    "logLevel": {
+      "default": "Warning",
+      "Function": "Error",
+      "Host.Results": "Information",
+      "Function.HttpTrigger": "Information",
+      "Function.HttpTrigger.User": "Error"
+    }
+  }
+}
