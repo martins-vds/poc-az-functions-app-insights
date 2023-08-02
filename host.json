@@ -15,7 +15,9 @@
       "Function": "Error",
       "Host.Results": "Information",
       "Function.HttpTrigger": "Information",
-      "Function.HttpTrigger.User": "Error"
+      "Function.HttpTrigger.User": "Error",
+      "Function.ServiceBusTrigger": "Information",
+      "Function.ServiceBusTrigger.User": "Error"
     }
   }
 }
